@@ -4,6 +4,10 @@
 
 import numpy as np
 
+
+number = np.random.randint(1, 101) # загадываем числа
+
+
 def random_predict(number:int=1)->int:
     '''Функция с минимальным попытками угадывания чисел '''
 
